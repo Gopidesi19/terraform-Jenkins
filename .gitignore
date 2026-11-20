@@ -1,0 +1,18 @@
+# Terraform working directories and local state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+crash.log
+crash.*.log
+
+# Local variable overrides and credentials
+*.tfvars.local
+*.auto.tfvars
+*.auto.tfvars.json
+.terraformrc
+terraform.rc
+
+# Keep Terraform dependency lock files committed.
+# .terraform.lock.hcl
