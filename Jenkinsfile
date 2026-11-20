@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'terraform-linux' }
+  agent any
 
   options {
     timestamps()
